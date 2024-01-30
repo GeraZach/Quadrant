@@ -26,31 +26,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 
-@Composable
-fun WeightModifierExampleOne() {
-
-    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            // horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            Text(
-                text = "Hello bjhdd jkjkdd nnjknd njndd nnnnnd njddj nnnd n",
-                modifier = Modifier.weight(
-                    1f
-                )
-            )
-            Spacer(
-                modifier = Modifier
-                    .background(Color.Red, CircleShape)
-                    .size(50.dp)
-            )
-        }
-    }
-
-}
-
-
 @Preview
 @Composable
 fun WeightModifierExampleTwo() {
